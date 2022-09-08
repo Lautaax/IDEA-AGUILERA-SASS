@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria - Yago Castro</title>
+    <link rel="stylesheet" href="../style/normalize.css" />    
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/style2.css">
+</head>
+<body>
+</head>
+<body class="fondo">
+<header>  
+    <div class="header"><a href="https://www.instagram.com/yagodamian.castro/"><img src="../Imagenes/Instagram_logo_2016.jpg" align="right" width="40" height="40"  ></a>
+    <a href="https://www.facebook.com/yagodamian.castro"><img src="../imagenes/like2.jpg " align="right" width="60" height="50" ></a></div>
+    </header> 
+    
+    <p><a class="logo" href="../index.html"><img src="../imagenes/logoanimado.gif" width="250" height="150" alt="Foto portada"> </a></p>
+    
+</header>
+    <div  class="menu animate__animated animate__backInDown" >
+        <nav class="animate__animated animate__bounce" type="toolbar">
+            <a class="zoom" href="../index.html" >Inicio</a>
+            <a class="zoom" href="galeria.html" >Galeria</a>
+            <a class="zoom" href="precios.html">Precios</a>
+            <a class="zoom" href="turnos.html" >Turnos</a>
+            <a class="zoom" href="contacto.html">Contacto</a>../
+        </nav>
+    </div>
+                    
+<div>
+        <form action="#" class="turno" >
+        <p>Ingrese hora:
+            <input type="time" id="hora" name="hora"></p>
+                Ingrese fecha:
+                <input type="date" id="fecha2" name="fecha2">
+                </p>  
+                <div id="terminos">
+                    <label for="terminos">¿Aceptas nuestros términos y condiciones?</label>
+                    <input type="checkbox" name="acepto" value="1"/>
+                    </div>
+                    <p> <input type="submit" name="process" class="btn btn-primary" onclick="Confirmar(event)" value="Confirmar Turno"/p>
+                    </form></div>
+            </div>
+
+            <script language="JavaScript"> 
+                function Confirmar(e){
+                var mensaje = "DESEA CONFIRMAR TUNRO?";
+                
+                    if (!confirm(mensaje)){
+                    e.preventDefault();
+                }}
+                
+                </script>
+
+            <div class="footer " ><img src="../imagenes/copyright.jpg" width="40" height="40" alt="copyright"> Copyright Todos los derechos Reservados Aguilera Lautaro. Instagram: <a href="https://www.instagram.com/_lautaa/"><img src="../imagenes/Instagram_logo_2016.jpg" width="40" height="40"  ></a></div>
+</body>
+</html>

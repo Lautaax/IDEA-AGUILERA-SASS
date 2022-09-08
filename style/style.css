@@ -1,0 +1,128 @@
+
+.fondo {
+
+    background-image: url("imagenes/fondo.png");
+    background-image: url(https://st2.depositphotos.com/3268541/6058/v/950/depositphotos_60585611-stock-illustration-vintage-styled-barber-shop-seamless.jpg)
+
+}
+
+.logo{
+margin: 4vw;
+}
+
+.titulo {
+
+    color: blueviolet;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    font-size: 2em;
+    font-family: 'Mochiy Pop One', sans-serif;  
+}
+
+.fotoprincipal {
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    border: solid;
+    display:inline-flex ;
+    width: 96%;
+}
+
+.lado2 {
+    width:65%;
+    background-color: lightgray;
+    display: inline-block;
+    overflow: auto;
+    padding: 1vw 1vw 1vw 1vw;
+    margin: 2vw 2vw 2vw 0vw ;
+    border: solid ;
+    vertical-align:top;
+    }
+
+.historia {
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 125%;
+}
+
+.turno {
+    justify-content: center;
+    color: rgb(5, 5, 5) ;
+    background-color: rgba(42, 31, 105, 0.601);
+    font-family: 'Josefin Sans';
+    font-size: 2em;
+    text-align: center;
+    padding: 1vw 1vw 1vw 1vw;
+    margin: 2vw 2vw 2vw 2vw  ;
+    
+}
+
+.contacto {
+    justify-content: center;
+    color: rgb(5, 5, 5) ;
+    background-color: rgba(141, 27, 78, 0.767);
+    font-family: 'Josefin Sans';
+    font-size: 2em;
+    text-align: center;
+    padding: 1vw 1vw 1vw 1vw;
+    margin: 2vw 2vw 2vw 2vw  ;
+    
+}
+
+
+
+.card {
+    width:26%;
+    background-color: lightgray;
+    display: inline-block;
+    overflow: auto;
+    padding: 1vw 1vw 1vw 1vw;
+    margin: 2vw 1vw 2vw 1vw ;
+    border: solid ;
+    vertical-align:top;
+    }
+
+
+.cardprincipal {
+    width:26%;
+    background-color: lightgray;
+    display: inline-block;
+    overflow:auto;
+    padding: 1vw 1vw 1vw 1vw;
+    margin: 2vw 1vw 2vw 1vw ;
+    border: solid ;
+    vertical-align:top;
+    }
+
+.card__precio{
+    width: 20vw; 
+    height: 50vh ;
+
+
+}
+
+.card__precio-description{
+font-size: 2vh;
+
+}
+
+.boton{
+    color: rgb(3, 3, 3);
+    background-color: #eef300;
+    border-color: #ddfe04;
+    border-radius: 10px;
+}
+
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+    text-align:center
+}
+

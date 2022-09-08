@@ -1,0 +1,70 @@
+.galeria {
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card__galery {
+  width: 23%;
+  margin: 1vh;
+  border: solid;
+  border-color: rgba(29, 27, 27, 0.593);
+}
+
+@media (max-width: 768px) {
+  .card__galery {
+    width: 40%;
+  }
+}
+.card-corte {
+  background-image: url(/imagenes/corte.jpg);
+  text-align: center;
+}
+
+.card-corteybarba {
+  background-image: url(/imagenes/corteybarba.jpg);
+  text-align: center;
+}
+
+.card-color {
+  background-image: url(/imagenes/color.jpg);
+  text-align: center;
+}
+
+.card-barba {
+  background-image: url(/imagenes/barba.jpg);
+  text-align: center;
+}
+
+.card-mechas {
+  background-image: url(/imagenes/mechas.jpg);
+  text-align: center;
+}
+
+.card-service {
+  background-image: url(/imagenes/service.jpg);
+  text-align: center;
+}
+
+.card {
+  borderimage: solid;
+}
+.card-corte {
+  border: 8px solid #ddd;
+}
+.card-corteybarba {
+  border: 2px solid rgb(245, 5, 5);
+}
+.card-color {
+  border: 3px solid rgb(23, 33, 218);
+}
+.card-barba {
+  border: 4px solid rgb(7, 197, 19);
+}
+.card-mechas {
+  border: 5px solid rgb(225, 120, 7);
+}
+.card-service {
+  border: 6px solid rgb(244, 11, 213);
+}/*# sourceMappingURL=main.css.map */

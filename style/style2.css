@@ -1,0 +1,202 @@
+.grid{
+width: 99%;
+display: grid;
+grid-template-rows: repeat(8, 12%);
+grid-template-columns: repeat(10, 10fr);
+grid-template-areas:
+    "header header header header header header header header header header"
+    "menu menu menu menu menu menu menu menu menu menu"
+    "foto foto foto content content content content content content content"
+    "foto foto foto content content content content content content content"
+    "foto foto foto content content content content content content content"
+    "foto foto foto content content content content content content content"
+    "foto foto foto content content content content content content content"
+    "footer footer footer footer footer footer footer footer footer footer" ;
+}
+
+.fondo {
+    background-image: url("../imagenes/fondo.png");
+    background-image: url(https://st2.depositphotos.com/3268541/6058/v/950/depositphotos_60585611-stock-illustration-vintage-styled-barber-shop-seamless.jpg)
+
+}
+
+.border{
+border:1px solid black;
+}
+
+.header{
+grid-area: header;
+
+}
+
+.menu{
+grid-area: menu;
+padding: 0.5vw 1vw 1vw 1vw;
+margin: 1vw 1vw 1vw 1vw;
+font-family: 'Josefin Sans';
+font-size: 150%;
+}
+
+.dentromenu{
+
+font-size: 20px;
+padding: 1vw 1vw 1vw 1vw;
+
+
+}
+
+
+.foto{
+    grid-area:foto;
+}
+
+.foto-principal {
+    margin: 7% 5px 5px 5%;
+    padding: 5px 5px 5px 5px;
+    border: solid;
+    display:inline-flex ;
+    width: 90%;
+}
+
+
+.content {
+grid-area: content;
+padding: 1vw 1vw 1vw 1vw;
+margin: 2vw 2vw 2vw 0vw ;
+background-color: rgba(211, 211, 211, 0.571);
+overflow:auto ;
+}
+.titulo{
+    color: blueviolet;
+
+
+}
+
+.footer{
+    grid-area: footer;
+    width: 90%;
+    height: 20px;
+    color: rgb(12, 12, 12);
+    justify-content: center;
+    text-align: center;
+    font-size: 150%;
+    margin: 10px 10px 10px 10px;
+    padding: 5% ;
+    vertical-align:text-bottom;
+}
+
+    .zoom:hover {
+        transform: scale(1.1); 
+    }
+    .zoom {
+        transition: transform .2s; 
+    }
+
+
+    nav {
+        background: rgba(255, 255, 255, 0.493);
+        height: 55px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        display: flex;
+        position: sticky;
+        top: 0;
+        overflow: hidden;
+    }
+    
+    nav a {
+        flex: 1;
+        height: 100%;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: #000;
+        transition: .2s ease-in-out all;
+        font-weight: 500;
+    }
+    
+    nav a:hover {
+        background: #00000067;
+    }
+    
+    nav .indicador {
+        width: 10px;
+        height: 7px;
+        background: #113cfc;
+        position: absolute;
+        bottom: 0;
+        transition: .3s ease-out all;
+        transform: translate(-500px);
+    }
+
+@media (max-width: 768px) {
+    .menu {
+    font-size: 80%
+        }
+    .footer { font-size: 50%;
+    font-style: italic;
+    align-items: center;
+    justify-content: center;
+    text-align: center;  
+    vertical-align:text-bottom; 
+    margin-top:auto;
+        }
+
+.fotofooter {
+    width: 20px;
+    height: 20px;
+}
+
+.grid{
+    width: 99%;
+    display: grid;
+    grid-template-rows: repeat(10, 9%);
+    grid-template-columns: repeat(5, 5fr);
+    grid-template-areas:
+        "header header header header header "
+        "menu menu menu menu menu "
+        "foto foto foto foto foto "
+        "foto foto foto foto foto "
+        "foto foto foto foto foto "
+        "foto foto foto foto foto "
+        "foto foto foto foto foto "
+        "content content content content content "
+        "content content content content content "
+        "content content content content content "
+        "content content content content content "
+        "footer footer footer footer footer " ;
+        
+    }
+    .foto-principal {
+        margin: 7% 0px 0px 5%;
+        padding: 5px 0px 0px 5px;
+        border: solid;
+        display:inline-flex ;
+        width: 90%;
+    }
+
+    .content {
+        grid-area: content;
+        padding: 1vw 1vw 1vw 1vw;
+        margin: 0vw 2vw 2vw 2vw ;
+        }
+
+.cardprincipal{
+
+height: auto ;
+width: 100%;
+
+}
+
+.card__precio {
+display:inline-block ;
+}
+.card__precio-description{
+    font-size: 1.5vh;
+}
+
+
+
+
+    }

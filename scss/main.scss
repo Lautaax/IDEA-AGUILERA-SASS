@@ -1,0 +1,77 @@
+$grey: rgba(29, 27, 27, 0.593);
+$black: black;
+$fuente:Arial, Helvetica, sans-serif;
+$ancho:23%;
+$margen:1vh;
+$tamfuente:1.5vh;
+$borde:solid;
+$displey:flex;
+
+.galeria{
+    display:$displey;
+    flex-flow:wrap;
+    flex-direction: row;
+    justify-content: center;}
+
+.card__galery{
+            width:$ancho; 
+            margin: $margen;
+            border: $borde;
+            border-color:$grey ;
+        }
+
+        // Responsive mixins 
+        // Bootstrap breakpoints
+
+        @media (max-width: 768px) {
+            .card__galery{
+            width: 40%;
+            }
+            }
+
+            $cards: corte, corteybarba, color, barba, mechas, service;
+
+            @each $card in $cards {
+            .card-#{$card} {
+            background-image: url(/imagenes/#{$card}.jpg);
+            text-align:center;
+            }
+        }
+
+        @mixin encabezados {
+            h1 {
+            font-size: 1.5em;
+            }
+            h2 {
+            font-size: 1.2em;
+            }
+            h3 {
+            font-size: 1em;
+            }
+        }
+
+
+.card {
+            borderimage: solid ;
+        
+            &-corte {
+            border: 8px solid #ddd;
+            }
+        
+            &-corteybarba {
+                border: 2px solid rgb(245, 5, 5);
+            }
+        
+            &-color {
+                border: 3px solid rgb(23, 33, 218);
+            }
+            &-barba {
+                border: 4px solid rgb(7, 197, 19);
+                }
+            &-mechas {
+                border: 5px solid rgb(225, 120, 7);
+            }
+            &-service {
+                border: 6px solid rgb(244, 11, 213);
+                }
+        }
