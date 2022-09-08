@@ -18,32 +18,32 @@
   }
 }
 .card-corte {
-  background-image: url(/imagenes/corte.jpg);
+  background-image: url(../imagenes/corte.jpg);
   text-align: center;
 }
 
 .card-corteybarba {
-  background-image: url(/imagenes/corteybarba.jpg);
+  background-image: url(../imagenes/corteybarba.jpg);
   text-align: center;
 }
 
 .card-color {
-  background-image: url(/imagenes/color.jpg);
+  background-image: url(../imagenes/color.jpg);
   text-align: center;
 }
 
 .card-barba {
-  background-image: url(/imagenes/barba.jpg);
+  background-image: url(../imagenes/barba.jpg);
   text-align: center;
 }
 
 .card-mechas {
-  background-image: url(/imagenes/mechas.jpg);
+  background-image: url(../imagenes/mechas.jpg);
   text-align: center;
 }
 
 .card-service {
-  background-image: url(/imagenes/service.jpg);
+  background-image: url(../imagenes/service.jpg);
   text-align: center;
 }
 
