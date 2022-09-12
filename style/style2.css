@@ -189,9 +189,10 @@ width: 100%;
 
 }
 
-.card__precio {
-display:inline-block ;
-}
+.card__precio{
+    height: 50vh ;
+    }
+
 .card__precio-description{
     font-size: 1.5vh;
 }
