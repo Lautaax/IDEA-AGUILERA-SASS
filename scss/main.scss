@@ -33,7 +33,7 @@ $displey:flex;
 
             @each $card in $cards {
             .card-#{$card} {
-            background-image: url(/imagenes/#{$card}.jpg);
+            background-image: url(../imagenes/#{$card}.jpg);
             text-align:center;
             }
         }

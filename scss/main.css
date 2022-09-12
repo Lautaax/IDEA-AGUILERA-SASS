@@ -20,6 +20,7 @@
 .card-corte {
   background-image: url(../imagenes/corte.jpg);
   text-align: center;
+
 }
 
 .card-corteybarba {
@@ -48,7 +49,8 @@
 }
 
 .card {
-  borderimage: solid;
+  -o-border-image: solid;
+    border-image: solid;
 }
 .card-corte {
   border: 8px solid #ddd;
