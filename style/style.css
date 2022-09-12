@@ -96,6 +96,7 @@ margin: 4vw;
 
 .card__precio{
 height: 50vh ;
+width: auto;
 }
 
 .card__precio-description{
