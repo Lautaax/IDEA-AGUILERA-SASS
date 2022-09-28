@@ -66,10 +66,13 @@ margin: 2vw 2vw 2vw 0vw ;
 background-color: rgba(211, 211, 211, 0.571);
 overflow:auto ;
 }
-.titulo{
-    color: blueviolet;
+.titulo {
 
-
+    color: rgb(255, 8, 0);
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    font-size: 2em;
+    font-family: "Lobster";  
 }
 
 .footer{
@@ -128,6 +131,20 @@ overflow:auto ;
         bottom: 0;
         transition: .3s ease-out all;
         transform: translate(-500px);
+    }
+
+    @font-face {
+        font-family: 'Lobster';
+        src: url('../font/Lobster-Regular.ttf') format('truetype');
+        font-style: normal;
+        font-weight: normal;
+    }
+
+    @font-face {
+        font-family: 'Pacifico';
+        src: url('../font/Pacifico-Regular.ttf') format('truetype');
+        font-style: normal;
+        font-weight: normal;
     }
 
 @media (max-width: 768px) {

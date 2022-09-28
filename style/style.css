@@ -10,14 +10,7 @@
 margin: 4vw;
 }
 
-.titulo {
 
-    color: blueviolet;
-    margin: 5px 5px 5px 5px;
-    padding: 5px 5px 5px 5px;
-    font-size: 2em;
-    font-family: 'Mochiy Pop One', sans-serif;  
-}
 
 .fotoprincipal {
     margin: 5px 5px 5px 5px;
@@ -41,7 +34,7 @@ margin: 4vw;
 .historia {
     margin: 5px 5px 5px 5px;
     padding: 5px 5px 5px 5px;
-    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: "Lobster";
     font-size: 125%;
 }
 
