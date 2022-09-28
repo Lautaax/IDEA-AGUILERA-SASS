@@ -1,8 +1,7 @@
 
 .fondo {
 
-    background-image: url("imagenes/fondo.png");
-    background-image: url(https://st2.depositphotos.com/3268541/6058/v/950/depositphotos_60585611-stock-illustration-vintage-styled-barber-shop-seamless.jpg)
+    background-image: url("imagenes/fondo.jpg");
 
 }
 
@@ -12,11 +11,7 @@ margin: 4vw;
 
 .titulo {
 
-    color: blueviolet;
-    margin: 5px 5px 5px 5px;
-    padding: 5px 5px 5px 5px;
-    font-size: 2em;
-    font-family: 'Mochiy Pop One', sans-serif;  
+  
 }
 
 .fotoprincipal {
@@ -41,8 +36,9 @@ margin: 4vw;
 .historia {
     margin: 5px 5px 5px 5px;
     padding: 5px 5px 5px 5px;
-    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 125%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .turno {
@@ -80,6 +76,7 @@ margin: 4vw;
     margin: 2vw 1vw 2vw 1vw ;
     border: solid ;
     vertical-align:top;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
 
 
@@ -92,11 +89,13 @@ margin: 4vw;
     margin: 2vw 1vw 2vw 1vw ;
     border: solid ;
     vertical-align:top;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     }
 
 .card__precio{
 height: 50vh ;
 width: auto;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .card__precio-description{

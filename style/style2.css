@@ -15,8 +15,7 @@ grid-template-areas:
 }
 
 .fondo {
-    background-image: url("../imagenes/fondo.png");
-    background-image: url(https://st2.depositphotos.com/3268541/6058/v/950/depositphotos_60585611-stock-illustration-vintage-styled-barber-shop-seamless.jpg)
+    background-image: url("../imagenes/fondo2.jpg");
 
 }
 
@@ -67,9 +66,11 @@ background-color: rgba(211, 211, 211, 0.571);
 overflow:auto ;
 }
 .titulo{
-    color: blueviolet;
-
-
+    color: rgb(255, 21, 0);
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    font-size: 3em;
+    font-family:comic sans-serif;
 }
 
 .footer{
@@ -173,25 +174,27 @@ overflow:auto ;
         padding: 5px 0px 0px 5px;
         border: solid;
         display:inline-flex ;
-        width: 90%;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     }
 
     .content {
         grid-area: content;
         padding: 1vw 1vw 1vw 1vw;
         margin: 0vw 2vw 2vw 2vw ;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
         }
 
 .cardprincipal{
 
 height: auto ;
 width: 100%;
-
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .card__precio{
     height: 50vh ;
     width:80vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
 
 .card__precio-description{
