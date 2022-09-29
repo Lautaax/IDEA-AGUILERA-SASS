@@ -189,13 +189,22 @@ padding: 1vw 1vw 1vw 1vw;
     grid-area: footer;
     width: 90%;
     height: 20px;
-    color: rgb(12, 12, 12);
+    color:#ffffff;
     justify-content: center;
     text-align: center;
     font-size: 150%;
     margin: 10px 10px 10px 10px;
     padding: 5% ;
     vertical-align:text-bottom;
+}
+
+.fotofooter {
+    width: 3vw;
+    height: 3vh;
+}
+.imgfooterinsta {
+width: 2vw ;
+height:3vh ;
 }
 
 .zoom:hover {
@@ -215,7 +224,7 @@ nav {
     overflow: hidden;
 }
 
- nav a {
+nav a {
     flex: 1;
     height: 100%;
     text-transform: uppercase;
@@ -229,7 +238,7 @@ nav {
     }
 
 nav a:hover {
-    background: #00000067;
+    background: #ea0d0d67;
 }
 
 nav .indicador {
@@ -268,6 +277,7 @@ nav .indicador {
     text-align: center;  
     vertical-align:text-bottom; 
     margin-top:auto;
+    color:#fdfdfd
 }
 
 .fotofooter {
@@ -275,6 +285,11 @@ nav .indicador {
     height: 20px;
 }
 
+.imgfooterinsta {
+    width: 2vw ;
+    height:3vh ;
+    }
+    
 .grid{
     width: 99%;
     display: grid;
