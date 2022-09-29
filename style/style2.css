@@ -1,3 +1,133 @@
+.fondo {
+background-image: url("../imagenes/fondo2.jpg");
+}
+
+.logo{
+margin: 4vw;
+}
+
+.fotoprincipal {
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    border-top: 1px solid #ff9999;
+    border-right: 2px dotted #99ff99;   
+    border-bottom: 2px dashed #9999ff;
+    border-left: 4px double #666666;
+    display:inline-flex ;
+    width: 60%;
+}
+
+.lado2 {
+    width:65%;
+    background-color: lightgray;
+    display: inline-block;
+    overflow: auto;
+    padding: 1vw 1vw 1vw 1vw;
+    margin: 2vw 2vw 2vw 0vw ;
+    border: solid ;
+    vertical-align:top;
+    }
+
+.titulo {
+    color: rgb(255, 8, 0);
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    font-size: 5em;
+    font-family: "Lobster";
+    text-shadow: 0.1em 0.1em 0.2em black  
+}
+.historia {
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    font-family: "Lobster";
+    font-size: 225%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.turno {
+    justify-content: center;
+    color: rgb(5, 5, 5) ;
+    background-color: rgba(42, 31, 105, 0.601);
+    font-family: 'Josefin Sans';
+    font-size: 2em;
+    text-align: center;
+    padding: 1vw 1vw 1vw 1vw;
+    margin: 2vw 2vw 2vw 2vw  ;
+    
+}
+
+.contacto {
+    justify-content: center;
+    color: rgb(5, 5, 5) ;
+    background-color: rgba(141, 27, 78, 0.767);
+    font-family: 'Josefin Sans';
+    font-size: 2em;
+    text-align: center;
+    padding: 1vw 1vw 1vw 1vw;
+    margin: 2vw 2vw 2vw 2vw  ;
+}
+
+.card {
+    width:26%;
+    background-color: lightgray;
+    display: inline-block;
+    overflow: auto;
+    padding: 1vw 1vw 1vw 1vw;
+    margin: 2vw 1vw 2vw 1vw ;
+    border: solid ;
+    vertical-align:top;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+.flip-scale-up-hor {
+    animation: flip-scale-up-hor 0.5s linear both;
+}
+.shadow-drop-2-center {
+-webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.cardprincipal {
+    width:26%;
+    background-color: lightgray;
+    display: inline-block;
+    overflow:auto;
+    padding: 1vw 1vw 1vw 1vw;
+    margin: 2vw 1vw 2vw 1vw ;
+    border: solid ;
+    vertical-align:top;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+.card__precio{
+height: 50vh ;
+width: auto;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card__precio-description{
+font-size: 2vh;
+}
+
+.boton{
+    color: rgb(3, 3, 3);
+    background-color: #eef300;
+    border-color: #ddfe04;
+    border-radius: 10px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+    text-align:center
+}
+
 .grid{
 width: 99%;
 display: grid;
@@ -14,18 +144,12 @@ grid-template-areas:
     "footer footer footer footer footer footer footer footer footer footer" ;
 }
 
-.fondo {
-    background-image: url("../imagenes/fondo2.jpg");
-
-}
-
 .border{
 border:1px solid black;
 }
 
 .header{
 grid-area: header;
-
 }
 
 .menu{
@@ -37,13 +161,9 @@ font-size: 150%;
 }
 
 .dentromenu{
-
 font-size: 20px;
 padding: 1vw 1vw 1vw 1vw;
-
-
 }
-
 
 .foto{
     grid-area:foto;
@@ -57,22 +177,12 @@ padding: 1vw 1vw 1vw 1vw;
     width: 90%;
 }
 
-
 .content {
-grid-area: content;
-padding: 1vw 1vw 1vw 1vw;
-margin: 2vw 2vw 2vw 0vw ;
-background-color: rgba(211, 211, 211, 0.571);
-overflow:auto ;
-}
-
-.titulo {
-
-    color: rgb(255, 8, 0);
-    margin: 5px 5px 5px 5px;
-    padding: 5px 5px 5px 5px;
-    font-size: 2em;
-    font-family: "Lobster";  
+    grid-area: content;
+    padding: 1vw 1vw 1vw 1vw;
+    margin: 2vw 2vw 2vw 0vw ;
+    background-color: rgba(211, 211, 211, 0.571);
+    overflow:auto ;
 }
 
 .footer{
@@ -88,77 +198,77 @@ overflow:auto ;
     vertical-align:text-bottom;
 }
 
-    .zoom:hover {
-        transform: scale(1.1); 
-    }
-    .zoom {
-        transition: transform .2s; 
+.zoom:hover {
+    transform: scale(1.1); 
+}
+.zoom {
+    transition: transform .2s; 
+}
+
+nav {
+    background: rgba(255, 255, 255, 0.493);
+    height: 55px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+ nav a {
+    flex: 1;
+    height: 100%;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #000;
+    transition: .2s ease-in-out all;
+    font-weight: 500;
     }
 
+nav a:hover {
+    background: #00000067;
+}
 
-    nav {
-        background: rgba(255, 255, 255, 0.493);
-        height: 55px;
-        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-        display: flex;
-        position: sticky;
-        top: 0;
-        overflow: hidden;
-    }
-    
-    nav a {
-        flex: 1;
-        height: 100%;
-        text-transform: uppercase;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        color: #000;
-        transition: .2s ease-in-out all;
-        font-weight: 500;
-    }
-    
-    nav a:hover {
-        background: #00000067;
-    }
-    
-    nav .indicador {
-        width: 10px;
-        height: 7px;
-        background: #113cfc;
-        position: absolute;
-        bottom: 0;
-        transition: .3s ease-out all;
-        transform: translate(-500px);
-    }
+nav .indicador {
+    width: 10px;
+    height: 7px;
+    background: #f501dc;
+    position: absolute;
+    bottom: 0;
+    transition: .3s ease-out all;
+    transform: translate(-500px);
+}
 
-    @font-face {
-        font-family: 'Lobster';
-        src: url('../font/Lobster-Regular.ttf') format('truetype');
-        font-style: normal;
-        font-weight: normal;
-    }
+@font-face {
+    font-family: 'Lobster';
+    src: url('../font/Lobster-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
 
-    @font-face {
-        font-family: 'Pacifico';
-        src: url('../font/Pacifico-Regular.ttf') format('truetype');
-        font-style: normal;
-        font-weight: normal;
-    }
+@font-face {
+    font-family: 'Pacifico';
+    src: url('../font/Pacifico-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
 
 @media (max-width: 768px) {
     .menu {
     font-size: 80%
-        }
-    .footer { font-size: 50%;
+}
+
+.footer { font-size: 50%;
     font-style: italic;
     align-items: center;
     justify-content: center;
     text-align: center;  
     vertical-align:text-bottom; 
     margin-top:auto;
-        }
+}
 
 .fotofooter {
     width: 20px;
@@ -183,22 +293,22 @@ overflow:auto ;
         "content content content content content "
         "content content content content content "
         "footer footer footer footer footer " ;
-        
-    }
-    .foto-principal {
-        margin: 7% 0px 0px 5%;
-        padding: 5px 0px 0px 5px;
-        border: solid;
-        display:inline-flex ;
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.foto-principal {
+    margin: 7% 0px 0px 5%;
+    padding: 5px 0px 0px 5px;
+    border: solid;
+    display:inline-flex ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     }
 
-    .content {
-        grid-area: content;
-        padding: 1vw 1vw 1vw 1vw;
-        margin: 0vw 2vw 2vw 2vw ;
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-        }
+.content {
+    grid-area: content;
+    padding: 1vw 1vw 1vw 1vw;
+    margin: 0vw 2vw 2vw 2vw ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
 
 .cardprincipal{
 
@@ -211,13 +321,9 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     height: 50vh ;
     width:80vw;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    }
-
-.card__precio-description{
-    font-size: 1.5vh;
 }
 
-
-
-
+.card__precio-description{
+font-size: 1.5vh;
+}
     }
