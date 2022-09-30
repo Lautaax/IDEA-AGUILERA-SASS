@@ -3,8 +3,9 @@ background-image: url("../imagenes/fondo2.jpg");
 }
 
 .logo{
-margin: 4vw;
-}
+    width: 30%;
+    height: 90%;
+    }
 
 .fotoprincipal {
     margin: 5px 5px 5px 5px;
@@ -270,6 +271,12 @@ nav .indicador {
     font-size: 80%
 }
 
+.logo{
+width: 90%;
+height: 60%;
+
+}
+
 .footer { font-size: 50%;
     font-style: italic;
     align-items: center;
@@ -281,39 +288,34 @@ nav .indicador {
 }
 
 .fotofooter {
-    width: 20px;
-    height: 20px;
+    width: 5vw;
+    height: 2vh;
 }
 
 .imgfooterinsta {
-    width: 2vw ;
-    height:3vh ;
+    width: 2.5vw ;
+    height:2vh ;
     }
     
-.grid{
+.grid {
     width: 99%;
     display: grid;
-    grid-template-rows: repeat(10, 9%);
-    grid-template-columns: repeat(5, 5fr);
+    grid-template-rows: 15% 8% 44% ;
+    grid-template-columns: repeat(2, 50%);
     grid-template-areas:
-        "header header header header header "
-        "menu menu menu menu menu "
-        "foto foto foto foto foto "
-        "foto foto foto foto foto "
-        "foto foto foto foto foto "
-        "foto foto foto foto foto "
-        "foto foto foto foto foto "
-        "content content content content content "
-        "content content content content content "
-        "content content content content content "
-        "content content content content content "
-        "footer footer footer footer footer " ;
-}
+    "header header"
+    "menu menu"
+    "foto foto"
+    "content content"
+    "footer footer"
+    }
 
 .foto-principal {
     margin: 7% 0px 0px 5%;
     padding: 5px 0px 0px 5px;
     border: solid;
+    height: 90%;
+    height: 90%;
     display:inline-flex ;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     }
@@ -324,6 +326,12 @@ nav .indicador {
     margin: 0vw 2vw 2vw 2vw ;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     }
+
+.content{
+    overflow: scroll;
+    height: 55vh;
+    width: 95%; 
+}
 
 .cardprincipal{
 
