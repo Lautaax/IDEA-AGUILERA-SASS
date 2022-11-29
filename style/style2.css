@@ -158,7 +158,8 @@ grid-area: menu;
 padding: 0.5vw 1vw 1vw 1vw;
 margin: 1vw 1vw 1vw 1vw;
 font-family: 'Josefin Sans';
-font-size: 150%;
+font-size: 130%;
+border-radius:10px ;
 }
 
 .dentromenu{
@@ -218,6 +219,7 @@ height:3vh ;
 nav {
     background: rgba(255, 255, 255, 0.493);
     height: 55px;
+    border-radius:10px ;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     display: flex;
     position: sticky;
@@ -227,7 +229,7 @@ nav {
 
 nav a {
     flex: 1;
-    height: 100%;
+    height: 80%;
     text-transform: uppercase;
     display: flex;
     align-items: center;
@@ -236,10 +238,12 @@ nav a {
     color: #000;
     transition: .2s ease-in-out all;
     font-weight: 500;
+    width: 10px;
     }
 
 nav a:hover {
-    background: #ea0d0d67;
+    background: hsla(160, 1%, 46%, 0.3);
+    border-radius:8px ;
 }
 
 nav .indicador {
