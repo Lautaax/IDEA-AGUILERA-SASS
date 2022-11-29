@@ -40,6 +40,18 @@
                     
 <div class=" animate__animated animate__fadeIn">
         <form action="#" class="turno" >
+            <div>
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos"/>
+            </div>
+            <div>
+                <label for="nombres">Nombres:</label>
+                <input type="text" id="nombres"/>
+            </div>
+            <div>
+                <label for="telefono">Celular :</label>
+                <input type="tel" id="telefono"/>
+            </div>
         <p>Ingrese hora:
             <input type="time" id="hora" name="hora"></p>
                 Ingrese fecha:
@@ -49,13 +61,13 @@
                     <label for="terminos">¿Aceptas nuestros términos y condiciones?</label>
                     <input type="checkbox" name="acepto" value="1"/>
                     </div>
-                    <p> <input type="submit" name="process" class="btn btn-primary" onclick="Confirmar(event)" value="Confirmar Turno"/p>
+                    <p> <input id="ingresar" type="submit" name="process" class="btn btn-primary" onclick="Confirmar(event)" value="Confirmar Turno"/p>
                     </form></div>
             </div>
 
             <script language="JavaScript"> 
                 function Confirmar(e){
-                var mensaje = "DESEA CONFIRMAR TUNRO?";
+                let mensaje = "DESEA CONFIRMAR TUNRO?";
                 
                     if (!confirm(mensaje)){
                     e.preventDefault();
